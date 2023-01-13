@@ -231,6 +231,7 @@ margin-top: 10px;
     gap: 200px;
     padding: 130px 0px;
 }
+
 .footer-content-title{
     font-weight: 700;
 font-size: 35px;
@@ -242,7 +243,7 @@ margin-bottom: 28px;
 font-size: 16px;
 line-height: 28px;
 color: #474747;
-width: 562px;
+/* width: 562px; */
 height: 56px;
 }
 .icon{
@@ -252,7 +253,10 @@ height: 56px;
     display: flex;
     gap: 24px;
 }
-
+.footer-section-b{
+    position: relative;
+    right: 30px;
+}
 .footer-section input,textarea{
     display: block;
     width: 100%;
@@ -356,11 +360,20 @@ input{
     }
     .footer-container{
         flex-direction: column;
-        padding:100px 15px;
+        gap: 45px;
+        padding:100px 15px 30px 15px;
     }
     .footer-section input,.footer-section textarea{
         padding:8px 0px 8px 9px;
     }
+    .footer-section textarea{
+        height: 100px;
+    }
+    .footer-section-b{
+        position: relative;
+        right: 0px;
+    }
+    
     
 }
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -368,7 +381,9 @@ input{
         flex-direction: column;
         padding:100px 15px;
     }
+    
     .footer-section input,.footer-section textarea{
         padding:8px 0px 8px 9px;
     }
+
 }
