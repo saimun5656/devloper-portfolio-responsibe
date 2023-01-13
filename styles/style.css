@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.prymary-text{
+    color:#FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    padding: 1.4vw 2vw;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.7vw;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 21px;
+}
+.btn-primary:hover{
+    font-size: 25px;
+}
+.header{
+    background-color:  #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    
+    background-repeat: no-repeat;
+    background-position:bottom right,left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 50px 200px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight:800;
+}
+/* header banner */
+.banner{
+    display: flex;
+    margin: 0px 0px 0px 200px;
+    align-items: center;  
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5PX;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 6vw;
+color: #181818;
+margin-bottom: 20PX;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30PX;
+}
+.main-image{
+    margin-right: 40px;
+    height: px;
+    width: 550px;
+}
+/* about section */
+
+.main{
+    max-width:1150px;
+    margin: 0 auto;
+    
+}
+.about{
+    padding: 131px 155px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 130px;
+    background-color:#FFF8F3
+
+}
+.section-tilte{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #a59d9d;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+/* .about-info { } */
+    
+.info-title{
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+.info-name{
+    font-weight: 700;
+    font-size: 18px;
+    color: #474747;
+}
+/* What i do section style */
+
+.what-i-do{ 
+    padding: 130px 0px;
+    border-radius: 10px;
+
+    
+    background-color: white;
+}
+.what-i-do-titte{
+    font-weight: 700;
+font-size: 35px;
+color: #181818;
+margin-bottom: 30px;
+text-align: center;
+}
+.what-i-do-title-description{
+    font-weight: 400;
+font-size: 18px;
+color: #757575;
+margin-bottom: 50px;
+text-align: center;
+line-height:30px;
+}
+.resume-content-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;   
+}
+.skill{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.skill:hover{
+    font-size: 40px;
+}
+   .skill-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+   }
+   .skill-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    text-align: left;
+   }
+
+   /* resume styles */
+   .resume{
+    padding-bottom: 50px;
+   }
+   .resume-container{
+    display: flex;
+    gap: 71px;
+   }
+   .resume-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 113px;
+   }
+   .resume-section-title{
+    font-weight: 700;
+    font-size: 30px;
+  
+    color: #474747;
+   }
+   .resume-content{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D1D1;
+    margin-top: 30px;
+   }
+   .resume-content-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+   }
+.resume-content-subtitle{
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+margin-top: 10px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer style */
+.footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    max-width:1150px;
+    margin: 0 auto;
+    gap: 117px;
+    padding: 130px 270px;
+}
+.footer-content-title{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+margin-bottom: 28px;
+}
+.footer-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #474747;
+width: 562px;
+height: 56px;
+}
+.icon{
+    margin-top:30px;
+    width: 120px;
+    height: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.footer-section input,textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom:24px;
+    padding:18px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+input{
+    height: 64px ;
+}
+.footer-section textarea{
+    height: 180px;
+}
+.hide{
+    display:none;
+}
+
+@media screen and (max-width:576px) {
+    .btn-primary{
+        padding: 9px 5px;
+    }
+    .nav-title{
+        font-size: 30px;
+        position: relative;
+        top:6px;
+    }
+    .nav ul li{
+        font-size: 12px;
+        margin:0px 0px 0px 10px;
+    }
+    .nav ul {
+        padding: 10px 0px 0px 7px;
+    }
+    nav{
+        padding: 20px 20px;
+    }
+    
+    .main-image{
+       width: 70%;
+       height: 80%;
+       margin-right:0px;
+       position: relative;
+       left: 40px;
+       
+    }
+    .header{
+        background-image: none;
+        background-image: url(/images/header_bg.png);
+    }
+    .banner{
+        height: 130vw;
+       flex-direction: column;
+       margin:0px 0px 0px 20px;
+
+    }
+    .banner-subtitle{
+        font-size: 15px;
+    }
+    .about{
+        margin-top: 0px;
+        padding: 100px 20px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .section-description{
+        text-align: left;
+    }
+    .about-info{
+        margin-bottom: 20px;
+    }
+    .about-info-container{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        text-align: start;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    .what-i-do {
+    padding: 50px 0px;}
+    .what-i-do-title-description{
+        padding: 0 15px;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding:100px 15px;
+    }
+    .footer-section input,.footer-section textarea{
+        padding:8px 0px 8px 9px;
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .footer-container{
+        flex-direction: column;
+        padding:100px 15px;
+    }
+    .footer-section input,.footer-section textarea{
+        padding:8px 0px 8px 9px;
+    }
+}
