@@ -305,8 +305,8 @@ input{
     }
     
     .main-image{
-       width: 70%;
-       height: 80%;
+       width: 60%;
+       height: 100%;
        margin-right:0px;
        position: relative;
        left: 40px;
