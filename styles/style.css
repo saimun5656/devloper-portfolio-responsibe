@@ -11,7 +11,7 @@
     padding: 1.4vw 2vw;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     border: none;
     border-radius: 5px;
     padding: 16px 21px;
@@ -228,8 +228,8 @@ margin-top: 10px;
     display: flex;
     max-width:1150px;
     margin: 0 auto;
-    gap: 117px;
-    padding: 130px 270px;
+    gap: 200px;
+    padding: 130px 0px;
 }
 .footer-content-title{
     font-weight: 700;
@@ -274,17 +274,23 @@ input{
     display:none;
 }
 
-@media screen and (max-width:576px) {
+@media only screen and (max-width:576px) {
     .btn-primary{
         padding: 9px 5px;
+    }
+    .btn-primary .ic{
+        margin-right:0px;
+    }
+    .btn-primary:hover{
+        font-size: 15px;
     }
     .nav-title{
         font-size: 30px;
         position: relative;
-        top:6px;
+        top:1px;
     }
     .nav ul li{
-        font-size: 12px;
+        font-size: 14px;
         margin:0px 0px 0px 10px;
     }
     .nav ul {
@@ -301,18 +307,20 @@ input{
        position: relative;
        left: 40px;
        
+       
     }
     .header{
         background-image: none;
         background-image: url(./images/header_bg.png);
     }
     .banner{
-        height: 130vw;
+        height: 125vw;
        flex-direction: column;
        margin:0px 0px 0px 20px;
 
     }
     .banner-subtitle{
+        margin-bottom: 10px;
         font-size: 15px;
     }
     .about{
@@ -330,6 +338,7 @@ input{
     }
     .about-info-container{
         display: grid;
+        gap: 10px;
         grid-template-columns:1fr 1fr;
         text-align: start;
     }
